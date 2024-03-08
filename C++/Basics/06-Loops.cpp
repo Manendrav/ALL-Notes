@@ -38,14 +38,14 @@ int main(){
 
     // Read numbers until i don't get neagative numbers
 
-    // do           // wrong way to do it
-    // {
-    //     int n;
-    //     cin >> n;
-    //     if(n < 0){
-    //         break;
-    //     }
-    // } while (num > 0);
+    do           // wrong way to do it
+    {
+        int n;
+        cin >> n;
+        if(n < 0){
+            break;
+        }
+    } while (num > 0);
 
     int number;
     do
@@ -53,6 +53,17 @@ int main(){
         cin >> number;
     } while (number > 0);
     
-    
-    return 0;
+
+
+    // For Each Loop  <<--- For specialy iterating an array
+    int nums[] = {2, 3, 5, 7, 2};
+
+    for(int i : nums){
+        cout << i << endl;
+    }
+
+
+
+return 0;
+
 }
