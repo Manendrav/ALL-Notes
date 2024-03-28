@@ -1,2 +1,2 @@
-# CPP-DSA
-This repo contain all programs that was created during the learning of C++ and DSA
+# DSA-Learning
+Here are all the programs or problems that i solved during learning DSA
