@@ -19,7 +19,10 @@ int main(){
     //* Array -> It is a collection of similar data types elements stored in contiguous memory locations
 
     // create an array
-    int arr[10] = {1, 2, 3, 4, 5};
+    int arr[10] = {1, 2, 3, 4, 5};                  // the rest of values in array store garbage value or 0
+
+    //* this arr is a pointer to the first element of the array only 
+
 
     // access the array
     cout << arr[0] << endl;     // 1
