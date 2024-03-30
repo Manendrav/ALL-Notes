@@ -11,7 +11,7 @@ int main(){
         }
     }catch(int error){                              // exception or error comes with their own data type
         cout << "Error: " << error << endl;
-    }catch(...){                                     // ... is used to catch any type of error
+    }catch(...){                                     // ... is used to catch any type of error  // its variadic function
         cout << "Default Error" << endl;
     }                                               // you can define as many as many catch block you want
 }
