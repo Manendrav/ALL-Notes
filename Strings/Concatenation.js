@@ -1,22 +1,22 @@
 // concatenation is the process of combining two strings together to create a new string.
 
-// let str1 = 'Hellow';
-// let str2 = 'World';
+let str1 = 'Hellow';
+let str2 = 'World';
 
-// let str3 = str1 + ' ' + str2;
+let str3 = str1 + ' ' + str2;
 
 
-// function Concatenation(str1, str2){
-//     for(let i=0; i < str2.length; i++){
-//         str1 += str2[i]
-//     }
+function Concatenation(str1, str2){
+    for(let i=0; i < str2.length; i++){
+        str1 += str2[i]
+    }
 
-//     return str1
-// }
+    return str1
+}
 
-// let newStr = Concatenation(str1, str2);
+let newStr = Concatenation(str1, str2);
 
-// console.log(newStr)
+console.log(newStr)
 
 
 // *Question 1
@@ -26,19 +26,19 @@
 // Example:     s = "Let's code today"
 //              "s'teL edoc yadot"
 
-// let greet = "Hello Friend";
-// let words = greet.split(" "); // Split the string into words
+let greet = "Hello Friend";
+let words = greet.split(" "); // Split the string into words
 
-// let revStr = "";
-// for(let word of words){
-//     let reversedWord = "";
-//     for(let i = word.length - 1; i >= 0 ; i--){
-//         reversedWord += word[i];
-//     }
-//     revStr += reversedWord + " ";
-// }
+let revStr = "";
+for(let word of words){
+    let reversedWord = "";
+    for(let i = word.length - 1; i >= 0 ; i--){
+        reversedWord += word[i];
+    }
+    revStr += reversedWord + " ";
+}
 
-// console.log(revStr.trim());
+console.log(revStr.trim());
 
 
 //* Question 2
@@ -49,17 +49,17 @@
 //           and then print this concatenated string.
 
 
-// function RepeatedConcatenation(str, n){
-//     let concatedStr = "";
-//     for(let i=0; i < n; i++){
-//         concatedStr += str;
-//     }
-//     return concatedStr;
-// } 
+function RepeatedConcatenation(str, n){
+    let concatedStr = "";
+    for(let i=0; i < n; i++){
+        concatedStr += str;
+    }
+    return concatedStr;
+} 
 
-// let conStr = RepeatedConcatenation("Hello", 5);
+let conStr = RepeatedConcatenation("Hello", 5);
 
-// console.log(conStr)
+console.log(conStr)
 
 
 
