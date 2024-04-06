@@ -115,3 +115,58 @@ Substring extraction refers to the process of obtaining a portion of a string, k
   Index: 3
   Output:  "sample"
 ```
+
+### Case Conversion
+
+**11) Convert to Uppercase:**  
+ Write a program that takes a string as input and converts all characters to uppercase. (same for other cases)
+
+```bash
+  Input:  "Hello, World!"
+  Output: "HELLO, WORLD!"
+```
+
+**12) Toggle Case:**  
+  Create a program that takes a string as input and toggles the case of each character (converts uppercase letters to lowercase and vice versa)
+
+```bash
+  Input:  "Hello, World!"
+  Output: "hELLO, wORLD!"
+```
+
+**13) Convert to Uppercase First Letter:**  
+  Write a program that takes a string as input and converts the first letter of the string to uppercase while keeping the rest of the string unchanged.
+
+```bash
+  Input:  "hello, world!"
+  Output: "Hello, world!"
+```
+
+**14) Reverse Case Conversion:**  
+   Write a function that takes a string as input and converts uppercase letters to lowercase and vice versa, while also reversing the order of the characters in the string.
+
+```bash
+  Input:  "Hello, World!"
+  Output: "!DLROw ,OLLEh".
+```
+
+
+
+
+## Intermediate Questions
+
+**1) CamelCase to Snake Case:**  
+   Create a program that takes a string in CamelCase format as input and converts it to snake_case format.
+
+```bash
+  Input: "CamelCaseString"
+  Output: "camel_case_string"
+```
+
+**2) Conditional Case Conversion:**  
+   Create a function that takes a string as input and converts uppercase letters to lowercase if they occur at odd indices in the string, and converts lowercase letters to uppercase if they occur at even indices
+
+```bash
+  Input:  "Hello, World!"
+  Output: "HeLlO, wOrLd!"
+```
