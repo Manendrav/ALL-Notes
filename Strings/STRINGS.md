@@ -2,6 +2,18 @@
 
 In programming, a string is a sequence of characters, typically used to represent text. Strings are a fundamental data type in most programming languages.
 
+Examples of string literals: "Hello", "world", "123".
+Examples of string variables: 'name', 'message', 'text'.
+
+### Character Array
+
+A character array, often called a C-string, is a contiguous sequence of characters terminated by a null character ('\0').
+
+Examples of character arrays: 
+        char str[10]; 
+        char name[] = "John"; 
+        char message[100];
+
 ## Types Of Strings 📝
 
 1. **_Immutable Strings_**:
@@ -150,6 +162,31 @@ Substring extraction refers to the process of obtaining a portion of a string, k
   Output: "!DLROw ,OLLEh".
 ```
 
+### Trimming
+
+**15) Remove Leading and Trailing Whitespaces:**  
+  Write a program that takes a string as input and removes any leading and trailing whitespace characters. (remove space form front and end only).
+
+```bash
+  Input:  " Hello, World! "
+  Output: "Hello, World!"
+```
+
+**16) Trim Specific Character:**  
+  Write a function that takes a string and a specific character as input, and removes all occurrences of that character from both the beginning and end of the string.
+
+```bash
+  Input:  "***Hello, World!***", '*'
+  Output: "Hello, World!"
+```
+
+**17) Remove Specific Characters:**  
+   Write a function that takes a string as input, and removes all the character between A-Z, a-z and 0-9
+
+```bash
+  Input:  "Hello, World!"
+  Output: ", !"
+```
 
 
 
@@ -170,3 +207,35 @@ Substring extraction refers to the process of obtaining a portion of a string, k
   Input:  "Hello, World!"
   Output: "HeLlO, wOrLd!"
 ```
+
+**3) Remove Prefix:**  
+   Implement a program that takes a string and another string as input, and removes the specified prefix from the beginning of the string if it exists. (same do for suffix)
+
+```bash
+  Input:  "apple" 
+  prefix = "app"
+  Output: "le"
+
+  Input = "banana"
+  prefix = "app"
+  Output: "banana"
+```
+
+**4) Remove Duplicates:**  
+   Implement a function that takes a string as input and removes consecutive duplicate characters, keeping only one occurrence of each character.
+
+```bash
+  Input:  "bookkeeper"
+  Output: "bokeper"
+```
+
+**5) Remove Prefixes and Suffixes:**  
+   Implement a function that takes a two string prefixes and suffixes as input, and removes any occurrences of prefixes and suffixes from the string.
+
+```bash
+  Input = "unhappiness"
+  prefixes = "un"
+  suffixes = "ness"    
+  Output: "happi"
+```
+
