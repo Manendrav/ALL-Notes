@@ -188,6 +188,42 @@ Substring extraction refers to the process of obtaining a portion of a string, k
   Output: ", !"
 ```
 
+**18) Remove Whitespace between Words:**  
+   Write a function that takes a string containing multiple words separated by whitespace characters and removes any extra whitespace between the words, leaving only a single space between them.
+
+```bash
+  Input:  " This is  an   example string   with extra   whitespace. "
+  Output: "This is an example string with extra whitespace."
+```
+
+### Split and Join
+
+**19) Split by Space:**  
+   Write a program that takes a sentence as input and splits it into individual words based on whitespace characters.
+
+```bash
+  Input:  "The quick brown fox"
+  Output: ["The", "quick", "brown", "fox"]
+```
+
+**20) Join Words with Space:**  
+  Write a function that takes a list of words as input and joins them together into a single string with spaces between each word.
+
+```bash
+  Input:   ["Hello", "world", "how", "are", "you"]
+  Output: "Hello world how are you"
+```
+
+**21) Split by Delimiter:**  
+ Create a program that takes a string and a delimiter as input and splits the string into substrings based on the specified delimiter.
+
+```bash
+  Input:    "apple,banana,orange" 
+  delimiter = ","
+  Output:  ["apple", "banana", "orange"]
+```
+
+
 
 
 ## Intermediate Questions
@@ -238,4 +274,48 @@ Substring extraction refers to the process of obtaining a portion of a string, k
   suffixes = "ness"    
   Output: "happi"
 ```
+
+**6) Remove HTML Tags:**  
+   Create a program that takes an HTML string as input and removes all HTML tags (enclosed within angle brackets < >) from the string, leaving only the text content.
+
+```bash
+  Input = "<p>This is <b>bold</b> and <i>italic</i> text.</p>"
+  Output: "This is bold and italic text."
+```
+
+**7) Split and Join to Uppercase:**  
+   Write a program that takes a sentence as input, splits it into individual words, converts each word to uppercase, and then joins them back together into a single string.
+
+```bash
+  Input = "The quick brown fox"
+  Output: "THE QUICK BROWN FOX"
+```
+
+**8) Split by Multiple Delimiters:**  
+   Write a program that takes a string and a list of delimiters as input and splits the string into substrings based on any of the specified delimiters.
+
+```bash
+  Input = "apple,banana.orange"
+  delimiters = [",", "."]
+  Output: ["apple", "banana", "orange"]
+```
+
+**9) Join Words with Formatting:**  
+  Implement a program that takes a list of words and their corresponding formatting options as input (e.g., uppercase, lowercase, title case) and joins them together into a single string with the specified formatting.
+
+```bash
+  Input = [("hello", "uppercase"), ("world", "titlecase"), ("python", "lowercase")]
+  Output: "HELLO World python"
+```
+
+**10) Split and Join with Filtering:**  
+  Create a function that takes a string as input, splits it into individual words, filters out words that contain specific characters, and then joins the remaining words back together into a single string.
+
+```bash
+  Input = "hello ji DSA Padho"
+  filter_characters = {'o', 'b'}
+  Output: "ji DSA"
+```
+
+
 
