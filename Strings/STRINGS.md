@@ -224,6 +224,39 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ```
 
 
+### Replace Character
+
+**22) Replace Character:**  
+  Write a program that takes a string and two characters as input, and replaces all occurrences of the first character with the second character in the string.
+
+```bash
+  input_string = "hello world"
+  char_to_replace = 'l'
+  replacement_char = 'z'
+  Output:   "hezzo worzd"
+```
+
+**23) Replace All Digits:**  
+ Implement a function that takes a string as input and replaces all digits (numeric characters) with a specified character (e.g., '*').
+
+```bash
+  input_string = "hello123world456"
+  replacement_char = '*'
+  Output: "hello***world***"
+```
+
+**24) Replace First Occurrence:**  
+ Write a function that takes a string and two characters as input, and replaces the first occurrence of the character with the second character in the string.
+
+```bash
+  input_string = "hello world"
+  char_to_replace = 'o'
+  replacement_char = 'a'
+  Output:     "hella world"
+```
+
+
+
 
 
 ## Intermediate Questions
@@ -315,6 +348,24 @@ Substring extraction refers to the process of obtaining a portion of a string, k
   Input = "hello ji DSA Padho"
   filter_characters = {'o', 'b'}
   Output: "ji DSA"
+```
+
+**11) Replace with Conditional:**  
+ Create a function that takes a string as input and replaces all vowels (a, e, i, o, u) with a specified character (e.g., '*').
+
+```bash
+  input_string = "hello world"
+  replacement_char = '*'
+  Output: "h*ll* w*rld"
+```
+
+**12) Replace with Random Character:**  
+ Write a program that takes a string as input and replaces each character in the string with a randomly selected character from a specified set of characters (e.g., 'abcdefghijklmnopqrstuvwxyz').
+
+```bash
+  input_string = "hello world"
+  character_set = 'abcdefghijklmnopqrstuvwxyz'
+  Output : It should Random each time
 ```
 
 
