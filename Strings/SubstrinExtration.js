@@ -1,7 +1,7 @@
 
 // Substring extraction refers to the process of obtaining a portion of a string, known as a substring, from a larger string.
 
-// Q1) Write a program that takes a string and an integer n as input and prints the first n characters of the string.
+//* Q1) Write a program that takes a string and an integer n as input and prints the first n characters of the string.
 
 //Example:  String: "Hello, World!"
 //          n: 7
@@ -19,7 +19,7 @@ let printn = printNchar("Hello, Elliot", 7);
 console.log(printn);
 
 
-// Q2) Create a program that takes a string and two integers start and end as input and prints the substring of the string from index start to index end.
+//* Q2) Create a program that takes a string and two integers start and end as input and prints the substring of the string from index start to index end.
 
 // Example: String: "Hello, World!"
 //          start: 7  end: 11
@@ -37,7 +37,7 @@ let extracted = extractStr("Hello, World!", 7, 11);
 console.log(extracted)
 
 
-// Q3) Write a function that takes a string and an integer n as input and prints every nth character of the string.
+//* Q3) Write a function that takes a string and an integer n as input and prints every nth character of the string.
 
 // Example: String: "Hello, World!"  n: 3
 //  3rd position: l, ',' , o, d
@@ -67,7 +67,7 @@ let extractNthchar = nthChar("Hello, World!", 3)
 console.log(extractNthchar);
 
 
-// Q4) Write a function that takes a string and another string prefix as input and removes the prefix from the beginning of the string if it exists.
+//* Q4) Write a function that takes a string and another string prefix as input and removes the prefix from the beginning of the string if it exists.
 
 // Example: Input:  str = "hello world"     prefix = "hello "
 //          Output: "world"
@@ -93,7 +93,7 @@ let remPrefix = removePrefix("Hello, World!", "Hello");
 console.log(remPrefix);
 
 
-// Q5) Create a program that takes a string and another string suffix as input and removes the suffix from the end of the string if it exists.
+//* Q5) Create a program that takes a string and another string suffix as input and removes the suffix from the end of the string if it exists.
 
     // Example: Input String: "hello_world"     Suffix: "_world"
     //              Output: "hello"
@@ -119,7 +119,7 @@ console.log(remPrefix);
 
 
 
-// Q6) Implement a function that takes a sentence and an integer index as input and prints the word at the specified index in the sentence.
+//* Q6) Implement a function that takes a sentence and an integer index as input and prints the word at the specified index in the sentence.
     
 //  Example: Sentence: "This is a sample sentence."     Index: 2
 //  output:     Word at index 2: "a"

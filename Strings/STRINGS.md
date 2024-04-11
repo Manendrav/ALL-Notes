@@ -9,10 +9,10 @@ Examples of string variables: 'name', 'message', 'text'.
 
 A character array, often called a C-string, is a contiguous sequence of characters terminated by a null character ('\0').
 
-Examples of character arrays: 
-        char str[10]; 
-        char name[] = "John"; 
-        char message[100];
+Examples of character arrays:
+char str[10];
+char name[] = "John";
+char message[100];
 
 ## Types Of Strings 📝
 
@@ -139,7 +139,7 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ```
 
 **12) Toggle Case:**  
-  Create a program that takes a string as input and toggles the case of each character (converts uppercase letters to lowercase and vice versa)
+ Create a program that takes a string as input and toggles the case of each character (converts uppercase letters to lowercase and vice versa)
 
 ```bash
   Input:  "Hello, World!"
@@ -147,7 +147,7 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ```
 
 **13) Convert to Uppercase First Letter:**  
-  Write a program that takes a string as input and converts the first letter of the string to uppercase while keeping the rest of the string unchanged.
+ Write a program that takes a string as input and converts the first letter of the string to uppercase while keeping the rest of the string unchanged.
 
 ```bash
   Input:  "hello, world!"
@@ -155,7 +155,7 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ```
 
 **14) Reverse Case Conversion:**  
-   Write a function that takes a string as input and converts uppercase letters to lowercase and vice versa, while also reversing the order of the characters in the string.
+ Write a function that takes a string as input and converts uppercase letters to lowercase and vice versa, while also reversing the order of the characters in the string.
 
 ```bash
   Input:  "Hello, World!"
@@ -165,7 +165,7 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ### Trimming
 
 **15) Remove Leading and Trailing Whitespaces:**  
-  Write a program that takes a string as input and removes any leading and trailing whitespace characters. (remove space form front and end only).
+ Write a program that takes a string as input and removes any leading and trailing whitespace characters. (remove space form front and end only).
 
 ```bash
   Input:  " Hello, World! "
@@ -173,7 +173,7 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ```
 
 **16) Trim Specific Character:**  
-  Write a function that takes a string and a specific character as input, and removes all occurrences of that character from both the beginning and end of the string.
+ Write a function that takes a string and a specific character as input, and removes all occurrences of that character from both the beginning and end of the string.
 
 ```bash
   Input:  "***Hello, World!***", '*'
@@ -181,7 +181,7 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ```
 
 **17) Remove Specific Characters:**  
-   Write a function that takes a string as input, and removes all the character between A-Z, a-z and 0-9
+ Write a function that takes a string as input, and removes all the character between A-Z, a-z and 0-9
 
 ```bash
   Input:  "Hello, World!"
@@ -189,7 +189,7 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ```
 
 **18) Remove Whitespace between Words:**  
-   Write a function that takes a string containing multiple words separated by whitespace characters and removes any extra whitespace between the words, leaving only a single space between them.
+ Write a function that takes a string containing multiple words separated by whitespace characters and removes any extra whitespace between the words, leaving only a single space between them.
 
 ```bash
   Input:  " This is  an   example string   with extra   whitespace. "
@@ -199,7 +199,7 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ### Split and Join
 
 **19) Split by Space:**  
-   Write a program that takes a sentence as input and splits it into individual words based on whitespace characters.
+ Write a program that takes a sentence as input and splits it into individual words based on whitespace characters.
 
 ```bash
   Input:  "The quick brown fox"
@@ -207,7 +207,7 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ```
 
 **20) Join Words with Space:**  
-  Write a function that takes a list of words as input and joins them together into a single string with spaces between each word.
+ Write a function that takes a list of words as input and joins them together into a single string with spaces between each word.
 
 ```bash
   Input:   ["Hello", "world", "how", "are", "you"]
@@ -218,16 +218,15 @@ Substring extraction refers to the process of obtaining a portion of a string, k
  Create a program that takes a string and a delimiter as input and splits the string into substrings based on the specified delimiter.
 
 ```bash
-  Input:    "apple,banana,orange" 
+  Input:    "apple,banana,orange"
   delimiter = ","
   Output:  ["apple", "banana", "orange"]
 ```
 
-
 ### Replace Character
 
 **22) Replace Character:**  
-  Write a program that takes a string and two characters as input, and replaces all occurrences of the first character with the second character in the string.
+ Write a program that takes a string and two characters as input, and replaces all occurrences of the first character with the second character in the string.
 
 ```bash
   input_string = "hello world"
@@ -237,7 +236,7 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ```
 
 **23) Replace All Digits:**  
- Implement a function that takes a string as input and replaces all digits (numeric characters) with a specified character (e.g., '*').
+ Implement a function that takes a string as input and replaces all digits (numeric characters) with a specified character (e.g., '\*').
 
 ```bash
   input_string = "hello123world456"
@@ -255,14 +254,29 @@ Substring extraction refers to the process of obtaining a portion of a string, k
   Output:     "hella world"
 ```
 
+**25) Get Substring:**  
+Write a program that takes a string and two integers representing the start and end indices as input, and returns the substring of the string from the start index to the end index.
 
+```bash
+  input_string = "hello world"
+  start_index = 3
+  end_index = 8
+  Output: "lo wo"
+```
 
+**26) Get Every Nth Character:**  
+Implement a program that takes a string and an integer 'n' as input, and returns a substring containing every nth character of the string.
 
+```bash
+  Input: "abcdefg", 
+  n = 2
+  Output: "bdf"
+```
 
 ## Intermediate Questions
 
 **1) CamelCase to Snake Case:**  
-   Create a program that takes a string in CamelCase format as input and converts it to snake_case format.
+ Create a program that takes a string in CamelCase format as input and converts it to snake_case format.
 
 ```bash
   Input: "CamelCaseString"
@@ -270,7 +284,7 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ```
 
 **2) Conditional Case Conversion:**  
-   Create a function that takes a string as input and converts uppercase letters to lowercase if they occur at odd indices in the string, and converts lowercase letters to uppercase if they occur at even indices
+ Create a function that takes a string as input and converts uppercase letters to lowercase if they occur at odd indices in the string, and converts lowercase letters to uppercase if they occur at even indices
 
 ```bash
   Input:  "Hello, World!"
@@ -278,10 +292,10 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ```
 
 **3) Remove Prefix:**  
-   Implement a program that takes a string and another string as input, and removes the specified prefix from the beginning of the string if it exists. (same do for suffix)
+ Implement a program that takes a string and another string as input, and removes the specified prefix from the beginning of the string if it exists. (same do for suffix)
 
 ```bash
-  Input:  "apple" 
+  Input:  "apple"
   prefix = "app"
   Output: "le"
 
@@ -291,7 +305,7 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ```
 
 **4) Remove Duplicates:**  
-   Implement a function that takes a string as input and removes consecutive duplicate characters, keeping only one occurrence of each character.
+ Implement a function that takes a string as input and removes consecutive duplicate characters, keeping only one occurrence of each character.
 
 ```bash
   Input:  "bookkeeper"
@@ -299,17 +313,17 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ```
 
 **5) Remove Prefixes and Suffixes:**  
-   Implement a function that takes a two string prefixes and suffixes as input, and removes any occurrences of prefixes and suffixes from the string.
+ Implement a function that takes a two string prefixes and suffixes as input, and removes any occurrences of prefixes and suffixes from the string.
 
 ```bash
   Input = "unhappiness"
   prefixes = "un"
-  suffixes = "ness"    
+  suffixes = "ness"
   Output: "happi"
 ```
 
 **6) Remove HTML Tags:**  
-   Create a program that takes an HTML string as input and removes all HTML tags (enclosed within angle brackets < >) from the string, leaving only the text content.
+ Create a program that takes an HTML string as input and removes all HTML tags (enclosed within angle brackets < >) from the string, leaving only the text content.
 
 ```bash
   Input = "<p>This is <b>bold</b> and <i>italic</i> text.</p>"
@@ -317,7 +331,7 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ```
 
 **7) Split and Join to Uppercase:**  
-   Write a program that takes a sentence as input, splits it into individual words, converts each word to uppercase, and then joins them back together into a single string.
+ Write a program that takes a sentence as input, splits it into individual words, converts each word to uppercase, and then joins them back together into a single string.
 
 ```bash
   Input = "The quick brown fox"
@@ -325,7 +339,7 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ```
 
 **8) Split by Multiple Delimiters:**  
-   Write a program that takes a string and a list of delimiters as input and splits the string into substrings based on any of the specified delimiters.
+ Write a program that takes a string and a list of delimiters as input and splits the string into substrings based on any of the specified delimiters.
 
 ```bash
   Input = "apple,banana.orange"
@@ -334,7 +348,7 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ```
 
 **9) Join Words with Formatting:**  
-  Implement a program that takes a list of words and their corresponding formatting options as input (e.g., uppercase, lowercase, title case) and joins them together into a single string with the specified formatting.
+ Implement a program that takes a list of words and their corresponding formatting options as input (e.g., uppercase, lowercase, title case) and joins them together into a single string with the specified formatting.
 
 ```bash
   Input = [("hello", "uppercase"), ("world", "titlecase"), ("python", "lowercase")]
@@ -342,7 +356,7 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ```
 
 **10) Split and Join with Filtering:**  
-  Create a function that takes a string as input, splits it into individual words, filters out words that contain specific characters, and then joins the remaining words back together into a single string.
+ Create a function that takes a string as input, splits it into individual words, filters out words that contain specific characters, and then joins the remaining words back together into a single string.
 
 ```bash
   Input = "hello ji DSA Padho"
@@ -351,7 +365,7 @@ Substring extraction refers to the process of obtaining a portion of a string, k
 ```
 
 **11) Replace with Conditional:**  
- Create a function that takes a string as input and replaces all vowels (a, e, i, o, u) with a specified character (e.g., '*').
+ Create a function that takes a string as input and replaces all vowels (a, e, i, o, u) with a specified character (e.g., '\*').
 
 ```bash
   input_string = "hello world"
@@ -368,5 +382,11 @@ Substring extraction refers to the process of obtaining a portion of a string, k
   Output : It should Random each time
 ```
 
+**13) Get Middle Substring:**  
+ Write a function that takes a string as input and returns the middle substring of odd-length strings, or the two middle substrings of even-length strings.
 
-
+```bash
+  input_string = "hello"
+  Odd-Length String:      Output -->  "l"
+  Even-Length String:      Output -->  "or" "rl"
+```
