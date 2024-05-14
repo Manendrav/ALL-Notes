@@ -1,2 +1,2 @@
-# DSA-Learning
-Here are all the programs or problems that i solved during learning DSA
+# ALL-Notes
+Here are all the Notes or problems that i solved during learning DSA
