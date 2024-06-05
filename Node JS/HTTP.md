@@ -1,4 +1,4 @@
-# What is HTTP in Node.js ?
+# What is HTTP in Node.js ? 🌐
 
 HTTP (Hypertext Transfer Protocol) is a protocol that allows for communication between a client and a server over the internet. In the context of Node.js, it is commonly used to create web servers or to make HTTP requests to other servers.
 
@@ -9,7 +9,7 @@ HTTP (Hypertext Transfer Protocol) is a protocol that allows for communication b
 
 ## How can we create a server in Node.js ?
 
-```
+```javascript
 import http from "http";        // in-built module
 
 // Create a server object

@@ -19,19 +19,19 @@ Node REPL (Read-Eval-Print Loop) is an interactive JavaScript CLI environment th
 
 - **Initialize a Node.js Project:** Inside your project directory, you can initialize a new Node.js project using npm.
 
-```
+```javascript
     npm init
 ```
 
 - **Write Your First Node.js Script:** Now you're ready to write your first Node.js script.
 
-```
+```javascript
     console.log('Hello, NODE JS!');
 ```
 
 - **Run Your Script:** To run your Node.js script, open a terminal, navigate to your project directory.
 
-```
+```javascript
     node index.js
 ```
 

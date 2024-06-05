@@ -11,7 +11,7 @@ Modules help organize code into logical units, making it easier to manage, reuse
 
 CommonJS modules use "require()" to import modules and "module.exports" (or exports) to export values from a module.
 
-```
+```javascript
     // math.js
     function add(a, b) {
         return a + b;
@@ -19,7 +19,7 @@ CommonJS modules use "require()" to import modules and "module.exports" (or expo
 
     module.exports = add;
 ```
-```
+```javascript
     // app.js
     const add = require('./math');
     console.log(add(2, 3)); 
@@ -31,13 +31,13 @@ ES modules use "import" and "export" statements to import and export values betw
 
 **NOTE:** For using ES module you have to add "type"="module" in package.json
 
-```
+```javascript
     // math.js
     export function add(a, b) {
         return a + b;
     }
 ```
-```
+```javascript
     // app.js
     import { add } from './math';
     console.log(add(2, 3));

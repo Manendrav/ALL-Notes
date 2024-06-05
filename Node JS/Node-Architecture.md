@@ -9,7 +9,7 @@ Blocking code is synchronous, meaning each operation must complete before the ne
 
 Blocking operations are synchronous, and they can lead to performance issues if they take a long time to complete (e.g., reading a large file from disk, making a network request).
 
-```
+```javascript
 const fs = require('fs');
 
 // Blocking code
@@ -25,7 +25,7 @@ Non-blocking code, on the other hand, is asynchronous. It allows multiple operat
 
 Non-blocking operations are asynchronous and often use callbacks, promises, or async/await syntax to handle completion events.
 
-```
+```javascript
 const fs = require('fs');
 
 // Non-blocking code
