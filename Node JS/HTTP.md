@@ -66,7 +66,8 @@ Status codes indicate the result of the server's attempt to fulfill the client's
 
 - **Client Receives Response:** The client receives the response and processes it. For a web browser, this typically involves rendering the HTML, executing JavaScript, and displaying the content to the user.
 
-**image**
+### Image
+![Screenshot 2024-06-05 202522](https://github.com/Manendrav/ALL-Notes/assets/142565220/b9a9a7f4-95e5-4020-bb5b-20979650e1e8)
 
 
 <br>
