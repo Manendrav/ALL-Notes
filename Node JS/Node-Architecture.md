@@ -52,6 +52,7 @@ console.log('This logs immediately, even before the file is read');
 - **External Resources:** External resources are required to deal with blocking client requests. These resources can be for computation, data storage, etc.
 
 ### Architecture Image
+![Node Architecture](https://github.com/Manendrav/ALL-Notes/assets/142565220/34d99ff0-6fcc-4f45-9dca-97344e69cd5d)
 
 
 ## What is the Event Loop ?
@@ -71,6 +72,7 @@ The event loop is a mechanism that allows Node.js to perform non-blocking I/O op
 - **Repeat:** The event loop continues this process indefinitely, or until the program ends (e.g., when there are no more callbacks to process).
 
 ### Event Loop Image
+![Event Loop](https://github.com/Manendrav/ALL-Notes/assets/142565220/9d8675d2-8b71-4b98-ad7f-cbfb4ccd11c6)
 
 
 
