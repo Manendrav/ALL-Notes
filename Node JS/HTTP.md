@@ -7,6 +7,57 @@ HTTP (Hypertext Transfer Protocol) is a protocol that allows for communication b
 - **HTTP Response:** The server responds to the client's request with an HTTP response.
 
 
+### HTTP Headers
+
+They provide essential metadata about the HTTP request or response, influencing how data is processed and delivered between a client (like a web browser) and a server.
+
+**Request Headers:**
+Request headers are sent by the client (browser, mobile app, etc.) to the server as part of an HTTP request.
+
+They provide additional information about the request, the client, and what kind of response the client will accept.
+
+Access request headers using `req.headers`. This is an object containing all the headers sent by the client.
+
+```javascript
+app.get('/', (req, res) => {
+console.log(req.headers);
+  // Example output:
+  // {
+  //   'user-agent': 'Mozilla/5.0 ...',
+  //   'accept-language': 'en-US,en;q=0.9',
+  //   'referer': 'https://example.com',
+  //   ...
+  // }
+});
+```
+
+<br>
+
+**Response Headers:**
+
+Response headers are sent by the server (your Express.js app) back to the client.
+
+They provide additional information about the response, like its type, how to cache it, or set cookies.
+
+Set response headers using `res.set()` or `res.header()`
+
+*NOTE:* Always add X to the custom headers.
+
+```javascript
+app.get('/api', (req, res) => {
+  res.set({
+    // Standard headers
+    'Content-Type': 'application/json',
+    'Cache-Control': 'no-cache, no-store, must-revalidate',
+
+    // Custom headers
+    'X-MyName': 'XYZ'              // 'X' denote its a custome header
+    'X-Custom-Header': 'Hello from server'
+  });
+  res.json({ message: 'Hello, World!' });
+});
+```
+
 ## How can we create a server in Node.js ?
 
 ```javascript
@@ -40,6 +91,10 @@ HTTP defines several methods that indicate the desired action to be performed on
 - **HEAD:** Similar to GET but only transfers the status line and header section.
 
 - **PATCH:** Applies partial modifications to a resource
+
+<p align="center">
+<img src="../public/CRUD.png" alt="CRUD">
+</p>
 
 
 ## HTTP Status Code
