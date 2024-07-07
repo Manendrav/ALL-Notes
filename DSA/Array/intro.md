@@ -95,6 +95,7 @@ int main() {
 ```
 
 #### How can we create pointers in array?
+
 Pointers in C++ are variables that store the address of another variable while arrays are the data structure that stores the data in contiguous memory locations.
 
 In C++, we can manipulate arrays by using pointers to them. These kinds of pointers that point to the arrays are called array pointers or pointers to arrays
