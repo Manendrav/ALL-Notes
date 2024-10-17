@@ -3,9 +3,11 @@
 
 Middleware in Express is a function that acts as a bridge between an incoming request and the route handler. It allows you to execute some logic before the request is sent to the route handler. For example, you can use middleware to authenticate users, parse data, or add headers to the response.
 
-Middleware in Express.js refers to functions that are executed during the request-response cycle. 
+Middleware in Express.js refers to functions that are executed during the request-response cycle. It is a way to add extra functionality to your application.
 
 Middleware functions have access to the request object `req`, the response object `res`, and the `next` middleware function in the application’s request-response cycle.
+
+### Why do we use the next() in the middleware function ?
 
 `next():` The next() function is a function in the Express router, when invoked, executes the next middleware in the middleware stack.
 
@@ -13,9 +15,11 @@ Middleware functions have access to the request object `req`, the response objec
 
 - When we have multiple middleware functions, we need to ensure that each of our middleware functions either calls the `next()` function or sends back a response.
 
-`app.use():` We use the `app.use()` method to attach the middleware to the Express app. When a request is received, the middleware function is executed first, then the route handler is executed.
+### What is app.use() used for ?
 
-**Example:** Consider an authentication middleware that ensures users are logged in before they can access certain routes. This middleware intercepts the request, checks if the user is authenticated, and either lets them proceed or redirects them to the login page.
+`app.use():` We use the `app.use()` method to attach the middleware to all the routes. When a request is received, the middleware function is executed first, then the route handler is executed for all routes.
+
+- **Example:** Consider an authentication middleware that ensures users are logged in before they can access certain routes. This middleware intercepts the request, checks if the user is authenticated, and either lets them proceed or redirects them to the login page.
 
 ### Middleware functions can perform the following tasks:
 
@@ -24,7 +28,14 @@ Middleware functions have access to the request object `req`, the response objec
  - End the request-response cycle.
  - Call the next middleware in the stack.
 
-![middleware img](../public/middleware.png)
+
+<p align="center">
+  <img src="../public/middleware.png" alt="MiddlewareWork"/>
+</p>
+
+<p align="center">
+  <img src="../public/MiddlewareWork.png" alt="MiddlewareWork"/>
+</p>
 
 ## Types of Middleware
 
@@ -250,4 +261,4 @@ app.listen(3000);
 
 <br>
 
---- 📄 Document End 🎉 -----
+---- 📄 Document End 🎉 -----

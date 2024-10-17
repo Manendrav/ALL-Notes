@@ -248,9 +248,33 @@ MVC is a software architectural pattern used for developing user interfaces. It 
 
 - **View:** Represents the UI (user interface) of the application. The view layer sever communicates directly with the model — it communicates with the model layer strictly through the controller.
 
-- **Controller:** The controller interacts with the model and serves the response and functionality to the view. When an end user makes a request, it’s sent to the controller, which interacts with the database.
+- **Controller:** It act as a intermediary between the model and the view. The controller interacts with the model and serves the response and functionality to the view. When an end user makes a request, it’s sent to the controller, which interacts with the database.
 
 **Analogy:** You can think of the `controller` as a waiter in a restaurant that handles customers’ orders, which in this case is the `view`. The waiter then goes to the kitchen, which is the `model/database` and gets food to serve the customers, which is the controller handling the request.
+
+```txt
+first you create Schema 
+      |         (schema is a blueprint taht defines the structure of a docunment in database)
+      |
+when you utilize schema as class
+      |         (mongoose.model("user", userSchema);)
+      |
+Is called Model. (model is a -> Class)
+      |         (it is created from a schema and provide interface for unteracting with data)
+      |
+when rou create object of this model
+      |
+      |
+Is called Document
+      |         (it is a instance of model and represent single record in a collection.)
+      |
+If you combine multiple Documents
+      |
+      |
+Is called Collection
+                (It is group of related documents in MongoDB)
+
+```
 
 ##### Folder Structure
 

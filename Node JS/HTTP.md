@@ -76,6 +76,8 @@ server.listen(PORT, () => {
 });
 ```
 
+<br>
+
 ## HTTP Methods
 
 HTTP defines several methods that indicate the desired action to be performed on the resource:
@@ -95,6 +97,18 @@ HTTP defines several methods that indicate the desired action to be performed on
 <p align="center">
 <img src="../public/CRUD.png" alt="CRUD">
 </p>
+
+<br>
+
+### What is Idempotent request in HTTP
+
+In HTTP, an idempotent request is a request that can be repeated multiple times without producing different results. In other words, making the same request once or several times in a row will have the same effect on the server and will return the same response 
+
+**Idempotent HTTP Methods:** GET, PUT, DELETE, HEAD etc.
+
+**Non-Idempotent HTTP Methods:** POST
+
+(POST) Used to submit data to the server, often resulting in the creation of a new resource or causing a change in state.
 
 
 ## HTTP Status Code
