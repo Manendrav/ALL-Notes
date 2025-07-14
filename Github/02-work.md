@@ -1,7 +1,7 @@
 
-### Step-by-Step Guide: Create and Publish a Project to GitHub Using Git ⚒️
+## Step-by-Step Guide: Create and Publish a Project to GitHub Using Git ⚒️
 
-#### Create and initilaize Project
+### Create and initilaize Project
 
 1. **Create a New Project:** Create a directory and add some folders and your project files or code.
 
@@ -16,7 +16,7 @@ cd new-project
 git status
 ```
 
-<h5>before initilaization</h5>
+<h4>before initilaization</h4>
 
 <p align="center">
   <img src="../public/gitstatus.png" alt="gitstatus"/>
@@ -39,7 +39,7 @@ This creates a `.git` directory that tracks changes in your project. This adds a
 
 <br>
 
-#### Commit the Project Locally
+### Commit the Project Locally
 
 1. **Stage Files:** Stage your files using `git add`. This tells Git to include these files in the next commit.
 
@@ -62,7 +62,7 @@ git commit -m "Frist Commit"    #  -m flag is used to add a message to the commi
 
 <br>
 
-#### Publish on GitHub
+### Publish on GitHub
 
 Make sure frist you configure the SSH key. Vist [docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) 
 
@@ -115,11 +115,11 @@ Branches are a way to work on different versions of a project at the same time. 
 
 This can be useful when you want to make changes to a project without affecting the main branch or when you want to work on a new feature or bug fix.
 
-#### HEAD in git
+### HEAD in git
 
 The `HEAD` is a pointer to the current branch that you are working on. It points to the latest commit in the current branch. When you create a new branch, it is automatically set as the HEAD of that branch.
 
-#### Commands
+### Commands
 
 **Listing Branches:** List all local branches using `git branch`.
 ```bash

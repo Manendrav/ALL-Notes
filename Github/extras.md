@@ -95,7 +95,7 @@ We use rebase to avoid extra commits when merging branches. Rebase merge the bra
 
 <br>
 
-<h4>Git Reflog</h4> 
+<h3>Git Reflog</h3> 
 
 Git reflog is a command that shows you the history of your commits. It allows you to see the changes that you have made to your repository over time. This can be useful for debugging and understanding the history of your project.
 
